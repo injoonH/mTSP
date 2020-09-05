@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mTSP using k-means and genetic algorithm</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="p5.js"></script>
+    <script src="constants.js"></script>
+    <script src="point.js"></script>
+    <script src="sketch.js"></script>
+    <script src="userInterface.js"></script>
+  </head>
+
+  <body>
+    <button class="Mode" id="City">City</button>
+    <button class="Mode" id="Salesman">Salesman</button>
+    <button class="Mode" id="Delete">Delete</button>
+
+    <button id="Clear">Clear Canvas</button>
+
+    <button id="DirectGenerate">Add Point</button>
+
+    <input type="text" id="DirectX" class="DirectPos" onfocus="this.select()" />
+    <input type="text" id="DirectY" class="DirectPos" onfocus="this.select()" />
+
+    <input type="text" id="FirstPopsize" class="GaInput" />
+    <input type="text" id="Popsize" class="GaInput" />
+    <input type="text" id="Generation" class="GaInput" />
+    <input type="text" id="CrossoverProb" class="GaInput" />
+    <input type="text" id="MutationProb" class="GaInput" />
+    <input type="text" id="MaxIter" class="GaInput" />
+
+    <button id="StartAlgorithm">Find The Best Route</button>
+  </body>
+</html>

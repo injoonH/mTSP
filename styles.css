@@ -1,0 +1,93 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input {
+  border: none;
+  padding: 0;
+  display: inline-block;
+  font-family: "Lucida Console";
+  font-size: 20px;
+}
+
+button {
+  text-align: center;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
+
+.Mode {
+  width: 110px;
+  height: 40px;
+}
+
+.DirectPos {
+  width: 80px;
+  height: 40px;
+  text-align: right;
+}
+
+.GaInput {
+  width: 100px;
+  height: 40px;
+  text-align: left;
+}
+
+#City {
+  background-color: rgb(192, 225, 253);
+}
+
+#City:hover {
+  background-color: rgb(174, 216, 253);
+}
+
+#Salesman {
+  background-color: rgb(255, 154, 154);
+}
+
+#Salesman:hover {
+  background-color: rgb(250, 139, 139);
+}
+
+#Delete {
+  background-color: rgb(233, 196, 255);
+}
+
+#Delete:hover {
+  background-color: rgb(228, 182, 255);
+}
+
+#Clear {
+  width: 365px;
+  height: 40px;
+  background-color: rgb(205, 255, 205);
+}
+
+#Clear:hover {
+  background-color: rgb(188, 253, 188);
+}
+
+#DirectGenerate {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(255, 255, 195);
+}
+
+#DirectGenerate:hover {
+  background-color: rgb(255, 255, 154);
+}
+
+#StartAlgorithm {
+  width: 300px;
+  height: 60px;
+  background-color: rgb(255, 215, 163);
+}
+
+#StartAlgorithm:hover {
+  background-color: rgb(255, 207, 144);
+}
